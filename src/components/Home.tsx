@@ -21,7 +21,8 @@ import {
   Rocket,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import chatgptKitLogo from "../assets/chatgpt-kit.png";
+// Using image from public folder for GitHub Pages compatibility
+const chatgptKitLogo = "/chatgpt-kit.png";
 
 function Home() {
   return (
