@@ -1,1 +1,1 @@
-# ChatGPT-Kit-Website
+1. npx shadcn@latest init
