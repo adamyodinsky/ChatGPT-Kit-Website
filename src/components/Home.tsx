@@ -19,6 +19,7 @@ import {
   Download,
   Shield,
   Rocket,
+  X,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 // Using image from public folder for GitHub Pages compatibility
@@ -56,7 +57,7 @@ function Home() {
               className="font-sans bg-emerald-100 text-emerald-700 hover:bg-emerald-200 hover:scale-102 transition-all duration-300 cursor-pointer"
             >
               <Download className="mr-1 h-3 w-3" />
-              14-Day Free Trial
+              30-Day Free Trial
             </Badge>
             <Badge
               variant="secondary"
@@ -98,7 +99,7 @@ function Home() {
                 />
               ))}
             </div>
-            Try risk-free for 14 days
+            Try risk-free for 30 days
           </div>
         </div>
 
@@ -279,7 +280,7 @@ function Home() {
                 FREE TRIAL
               </div>
               <CardTitle className="font-quicksand text-xl text-slate-700">
-                14 Days to Try Everything
+                30 Days Trial
               </CardTitle>
               <CardDescription className="font-sans text-slate-600">
                 No signup required to start. Upgrade anytime to keep your
@@ -290,25 +291,25 @@ function Home() {
               <div className="space-y-4">
                 <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
                   <h4 className="font-semibold text-blue-800 mb-2">
-                    Trial Features (14 days)
+                    Trial Features (30 days)
                   </h4>
                   <div className="space-y-2">
                     <div className="flex items-center space-x-2">
                       <Check className="h-4 w-4 text-blue-600" />
                       <span className="font-sans text-sm text-blue-700">
-                        ✓ Drag & drop organization
+                        Drag & drop organization
                       </span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Check className="h-4 w-4 text-blue-600" />
                       <span className="font-sans text-sm text-blue-700">
-                        ✓ Native ChatGPT integration
+                        Native ChatGPT integration
                       </span>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <Check className="h-4 w-4 text-blue-600" />
+                      <X className="h-4 w-4 text-blue-600" />
                       <span className="font-sans text-sm text-blue-700">
-                        ✓ Cloud storage
+                        Cloud storage (only with pro)
                       </span>
                     </div>
                   </div>
@@ -316,21 +317,45 @@ function Home() {
 
                 <Separator className="my-4" />
 
-                <div className="bg-white rounded-lg p-4 shadow-sm border">
-                  <div className="flex items-center justify-between mb-2">
-                    <p className="font-sans text-sm text-slate-500">
-                      Premium Plan
+                <div className="space-y-4">
+                  <div className="bg-white rounded-lg p-4 shadow-sm border">
+                    <div className="flex items-center justify-between mb-2">
+                      <p className="font-sans text-sm text-slate-500">
+                        Monthly Plan
+                      </p>
+                      <Badge className="font-sans bg-gradient-to-r from-purple-500 to-pink-500">
+                        Pro
+                      </Badge>
+                    </div>
+                    <p className="font-sans text-2xl font-bold text-slate-900 mb-1">
+                      $3/month
                     </p>
-                    <Badge className="font-sans bg-gradient-to-r from-purple-500 to-pink-500">
-                      Pro
-                    </Badge>
+                    <p className="font-sans text-sm text-slate-600">
+                      Flexible monthly billing
+                    </p>
                   </div>
-                  <p className="font-sans text-2xl font-bold text-slate-900 mb-1">
-                    $3/year
-                  </p>
-                  <p className="font-sans text-sm text-slate-600">
-                    Continue using after trial + advanced features
-                  </p>
+
+                  <div className="bg-white rounded-lg p-4 shadow-sm border relative overflow-hidden">
+                    <div className="flex items-center justify-between mb-2">
+                      <p className="font-sans text-sm text-slate-500">
+                        Yearly Plan
+                      </p>
+                      <div className="flex items-center gap-2">
+                        <Badge className="font-sans bg-emerald-500">
+                          Save 45%
+                        </Badge>
+                        <Badge className="font-sans bg-gradient-to-r from-purple-500 to-pink-500">
+                          Pro
+                        </Badge>
+                      </div>
+                    </div>
+                    <p className="font-sans text-2xl font-bold text-slate-900 mb-1">
+                      $20/year
+                    </p>
+                    <p className="font-sans text-sm text-slate-600">
+                      Best value, save 45% annually
+                    </p>
+                  </div>
                 </div>
               </div>
             </CardContent>
@@ -456,7 +481,7 @@ function Home() {
             <div className="flex flex-wrap gap-2 justify-center">
               <Badge variant="outline" className="font-sans bg-white">
                 <Check className="mr-1 h-3 w-3 text-green-600" />
-                14-day free trial
+                30-day free trial
               </Badge>
               <Badge variant="outline" className="font-sans bg-white">
                 <Check className="mr-1 h-3 w-3 text-green-600" />
