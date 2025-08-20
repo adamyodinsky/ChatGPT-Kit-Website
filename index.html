@@ -1,202 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChatGPT Kit – Organize Your Conversations</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Space+Grotesk:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
 
-      body {
-        font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont,
-          sans-serif;
-        max-width: 100%;
-        margin: 0;
-        text-align: center;
-        line-height: 1.6;
-        color: #2c3e50;
-        background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/favicon_io/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT Kit - Organize Your AI Conversations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Patua+One&display=swap"
+    rel="stylesheet">
+</head>
 
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 4rem 2rem;
-      }
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 
-      .logo {
-        width: 180px;
-        height: auto;
-        margin-bottom: 2rem;
-        animation: float 6s ease-in-out infinite;
-      }
-
-      @keyframes float {
-        0% {
-          transform: translateY(0px);
-        }
-
-        50% {
-          transform: translateY(-10px);
-        }
-
-        100% {
-          transform: translateY(0px);
-        }
-      }
-
-      h1 {
-        font-family: "Outfit", sans-serif;
-        font-size: 4.2rem;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-        margin-bottom: 1.5rem;
-        background: linear-gradient(120deg, #2c3e50, #27ae60);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-shadow: 0 2px 10px rgba(39, 174, 96, 0.1);
-        transform: translateZ(0);
-      }
-
-      .tagline {
-        font-family: "Space Grotesk", sans-serif;
-        font-size: 1.6rem;
-        font-weight: 400;
-        color: #34495e;
-        margin-bottom: 2.5rem;
-        max-width: 620px;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 1.5;
-        letter-spacing: -0.01em;
-      }
-
-      .tagline br {
-        display: block;
-        content: "";
-        margin-top: 0.8rem;
-      }
-
-      .btn {
-        display: inline-block;
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: white;
-        background: linear-gradient(120deg, #27ae60, #2ecc71);
-        border: none;
-        border-radius: 12px;
-        text-decoration: none;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(46, 204, 113, 0.2);
-      }
-
-      .btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(46, 204, 113, 0.3);
-      }
-
-      .btn:active {
-        transform: translateY(1px);
-      }
-
-      footer {
-        padding: 2rem;
-        font-size: 0.95rem;
-        color: #7f8c8d;
-        background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(10px);
-        width: 100%;
-      }
-
-      footer a {
-        color: #27ae60;
-        text-decoration: none;
-        font-weight: 600;
-        transition: color 0.2s ease;
-      }
-
-      footer a:hover {
-        color: #2ecc71;
-      }
-
-      .heart {
-        color: #e74c3c;
-        display: inline-block;
-        animation: beat 1s infinite;
-      }
-
-      @keyframes beat {
-        0% {
-          transform: scale(1);
-        }
-
-        50% {
-          transform: scale(1.1);
-        }
-
-        100% {
-          transform: scale(1);
-        }
-      }
-
-      @media (max-width: 768px) {
-        h1 {
-          font-size: 2.5rem;
-        }
-
-        .tagline {
-          font-size: 1.2rem;
-          padding: 0 1rem;
-        }
-
-        .container {
-          padding: 3rem 1rem;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="container">
-      <img src="assets/chatgpt-kit.png" alt="ChatGPT Kit Logo" class="logo" />
-      <h1>ChatGPT Kit</h1>
-      <p class="tagline">
-        The ultimate drag-and-drop organizer for your ChatGPT conversations.<br />
-        Save time. Stay productive. Get organized.
-      </p>
-
-      <a
-        class="btn"
-        href="https://chromewebstore.google.com/detail/chatgpt-kit/fodhnilpmmmojhjbcpdpkgeclcakpdia?authuser=5&hl=en"
-        target="_blank"
-      >
-        Install Extension
-      </a>
-      <!-- <a class="btn" href="https://buy.stripe.com/your-stripe-checkout-link" target="_blank">Go Pro – $5/month</a> -->
-    </div>
-
-    <footer>
-      <p>
-        <a href="privacy-policy.html">Privacy Policy</a> | Made with
-        <span class="heart">❤️</span> by Adam Solutions
-      </p>
-    </footer>
-  </body>
 </html>
