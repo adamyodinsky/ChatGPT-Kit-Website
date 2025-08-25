@@ -56,7 +56,7 @@ function Home() {
             {/* YouTube Embed Container with 1:1 aspect ratio */}
             <div className="relative w-full pb-[100%] h-0 overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group">
               <iframe
-                src="https://www.youtube.com/embed/-HnK7Sn7FB8?rel=0&modestbranding=1&showinfo=0"
+                src="https://www.youtube.com/embed/-HnK7Sn7FB8?autoplay=1&mute=1&rel=0&modestbranding=1&showinfo=0"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
