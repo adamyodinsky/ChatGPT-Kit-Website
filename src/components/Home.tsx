@@ -253,7 +253,7 @@ function Home() {
         </Tabs>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-in-up delay-400">
+        {/* <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-in-up delay-400">
           <div>
             <h3 className="font-quicksand text-3xl font-bold text-slate-900 mb-6">
               What You'll Love
@@ -360,7 +360,7 @@ function Home() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </section>
 
       <Separator className="container mx-auto" />
