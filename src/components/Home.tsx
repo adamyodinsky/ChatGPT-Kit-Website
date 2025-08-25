@@ -19,7 +19,7 @@ import {
   Download,
   Shield,
   Rocket,
-  X,
+  // X,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 // Using image from public folder for GitHub Pages compatibility
