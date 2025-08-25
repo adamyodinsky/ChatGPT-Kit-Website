@@ -42,7 +42,7 @@ function Home() {
           ChatGPT Kit
         </h1>
 
-        <p className="font-inter text-xl md:text-2xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-400">
+        <p className="font-inter text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-400">
           Transform your chaotic ChatGPT history into a{" "}
           <span className="text-emerald-600 font-semibold">
             clean, organized workspace
@@ -50,7 +50,38 @@ function Home() {
           . No more lost conversations. No more endless scrolling.
         </p>
 
-        <div className="flex flex-col items-center gap-6 mb-12 animate-fade-in-up delay-600">
+        {/* Demo Video - Hero Section */}
+        <div className="flex justify-center mb-12 animate-fade-in-scale delay-500">
+          <div className="relative w-full max-w-sm">
+            {/* YouTube Embed Container with 1:1 aspect ratio */}
+            <div className="relative w-full pb-[100%] h-0 overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group">
+              <iframe
+                src="https://www.youtube.com/embed/-HnK7Sn7FB8?rel=0&modestbranding=1&showinfo=0"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                title="ChatGPT Kit Demo - Organize Your AI Conversations"
+                className="absolute top-0 left-0 w-full h-full rounded-2xl group-hover:scale-[1.02] transition-transform duration-300"
+              />
+            </div>
+
+            {/* Decorative elements */}
+            <div className="absolute -top-4 -left-4 w-8 h-8 bg-emerald-200 rounded-full opacity-60 animate-pulse"></div>
+            <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-blue-200 rounded-full opacity-40 animate-pulse delay-1000"></div>
+            <div className="absolute top-1/2 -right-8 w-6 h-6 bg-purple-200 rounded-full opacity-50 animate-bounce delay-500"></div>
+          </div>
+        </div>
+
+        <div className="text-center mb-8 animate-fade-in-up delay-600">
+          <p className="font-sans text-slate-600 max-w-lg mx-auto text-lg">
+            <span className="text-emerald-600 font-semibold">
+              👆 See it in action!
+            </span>{" "}
+            Watch the smooth drag-and-drop organization
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center gap-6 mb-12 animate-fade-in-up delay-700">
           <div className="flex flex-wrap gap-2 justify-center mb-4">
             <Badge
               variant="secondary"
