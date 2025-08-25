@@ -65,10 +65,10 @@ function Home() {
               />
             </div>
 
-            {/* Decorative elements */}
-            <div className="absolute -top-4 -left-4 w-8 h-8 bg-emerald-200 rounded-full opacity-60 animate-pulse"></div>
-            <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-blue-200 rounded-full opacity-40 animate-pulse delay-1000"></div>
-            <div className="absolute top-1/2 -right-8 w-6 h-6 bg-purple-200 rounded-full opacity-50 animate-bounce delay-500"></div>
+            {/* Decorative elements - positioned to avoid video controls */}
+            <div className="absolute -top-6 -left-6 w-8 h-8 bg-emerald-200 rounded-full opacity-60 animate-pulse"></div>
+            <div className="absolute -top-4 -right-8 w-6 h-6 bg-purple-200 rounded-full opacity-50 animate-bounce delay-500"></div>
+            <div className="absolute top-1/4 -left-8 w-6 h-6 bg-blue-200 rounded-full opacity-40 animate-pulse delay-1000"></div>
           </div>
         </div>
 
