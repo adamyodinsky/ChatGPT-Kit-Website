@@ -72,15 +72,6 @@ function Home() {
           </div>
         </div>
 
-        <div className="text-center mb-8 animate-fade-in-up delay-600">
-          <p className="font-sans text-slate-600 max-w-lg mx-auto text-lg">
-            <span className="text-emerald-600 font-semibold">
-              👆 See it in action!
-            </span>{" "}
-            Watch the smooth drag-and-drop organization
-          </p>
-        </div>
-
         <div className="flex flex-col items-center gap-6 mb-12 animate-fade-in-up delay-700">
           <div className="flex flex-wrap gap-2 justify-center mb-4">
             <Badge
