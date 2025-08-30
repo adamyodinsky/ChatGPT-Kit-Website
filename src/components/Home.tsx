@@ -56,12 +56,14 @@ function Home() {
             {/* YouTube Embed Container with 1:1 aspect ratio */}
             <div className="relative w-full pb-[100%] h-0 overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 group">
               <iframe
-                src="https://www.youtube.com/embed/-HnK7Sn7FB8?autoplay=1&mute=1&rel=0&modestbranding=1&showinfo=0"
+                src="https://www.youtube.com/embed/-HnK7Sn7FB8?autoplay=1&mute=1&rel=0&modestbranding=1&showinfo=0&controls=1&enablejsapi=1"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
+                loading="lazy"
                 title="ChatGPT Kit Demo - Organize Your AI Conversations"
                 className="absolute top-0 left-0 w-full h-full rounded-2xl group-hover:scale-[1.02] transition-transform duration-300"
+                style={{ backgroundColor: "#000" }}
               />
             </div>
 

@@ -14,6 +14,22 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Patua+One&display=swap"
     rel="stylesheet">
+  <style>
+    /* Critical CSS to prevent FOUC */
+    #root {
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    #root.loaded {
+      opacity: 1;
+    }
+
+    /* Fallback fonts to prevent layout shift */
+    * {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+  </style>
 </head>
 
 <body>
