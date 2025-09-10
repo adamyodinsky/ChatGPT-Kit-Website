@@ -81,7 +81,7 @@ function Home() {
               className="font-sans bg-emerald-100 text-emerald-700 hover:bg-emerald-200 hover:scale-102 transition-all duration-300 cursor-pointer"
             >
               <Download className="mr-1 h-3 w-3" />
-              30-Day Free Trial
+              14-Day Free Trial
             </Badge>
             <Badge
               variant="secondary"
@@ -505,7 +505,7 @@ function Home() {
             <div className="flex flex-wrap gap-2 justify-center">
               <Badge variant="outline" className="font-sans bg-white">
                 <Check className="mr-1 h-3 w-3 text-green-600" />
-                30-day free trial
+                14-day free trial
               </Badge>
               <Badge variant="outline" className="font-sans bg-white">
                 <Check className="mr-1 h-3 w-3 text-green-600" />
