@@ -33,21 +33,22 @@ function Home() {
         <div className="flex justify-center mb-8">
           <img
             src={chatgptKitLogo}
-            alt="ChatGPT Kit"
+            alt="ChatGPT Folders - Organize ChatGPT chats Chrome extension"
             className="w-32 h-32 logo-animate hover:scale-110 hover:rotate-12 transition-all duration-300 cursor-pointer"
           />
         </div>
 
         <h1 className="font-patua text-6xl md:text-7xl font-bold bg-gradient-to-r from-slate-800 via-emerald-600 to-slate-700 bg-clip-text text-transparent mb-6 leading-tight animate-fade-in-up delay-200">
-          ChatGPT Kit
+          ChatGPT Folders
         </h1>
 
         <p className="font-inter text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-400">
-          Transform your chaotic ChatGPT history into a{" "}
+          Organize your ChatGPT chats in folders with our{" "}
           <span className="text-emerald-600 font-semibold">
-            clean, organized workspace
+            Chrome extension
           </span>
-          . No more lost conversations. No more endless scrolling.
+          . Create ChatGPT folders, organize ChatGPT conversations, and never
+          lose important chats again.
         </p>
 
         {/* Demo Video - Hero Section */}
@@ -61,7 +62,7 @@ function Home() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 loading="lazy"
-                title="ChatGPT Kit Demo - Organize Your AI Conversations"
+                title="ChatGPT Folders Demo - Organize ChatGPT chats in folders"
                 className="absolute top-0 left-0 w-full h-full rounded-2xl group-hover:scale-[1.02] transition-transform duration-300"
                 style={{ backgroundColor: "#000" }}
               />
@@ -110,7 +111,7 @@ function Home() {
               rel="noopener noreferrer"
             >
               <Sparkles className="mr-2 h-5 w-5 group-hover:rotate-6 group-hover:scale-105 transition-all duration-300" />
-              Install Free Extension
+              Install ChatGPT Chrome Extension
             </a>
           </Button>
 
@@ -131,14 +132,14 @@ function Home() {
         <div className="bg-slate-100 rounded-2xl p-8 max-w-4xl mx-auto animate-fade-in-scale delay-300 hover:shadow-md transition-all duration-300">
           <p className="font-sans text-slate-700 text-lg leading-relaxed">
             <strong className="text-slate-900">
-              Tired of losing important ChatGPT conversations?
+              Tired of losing important ChatGPT chats?
               <br />
             </strong>
-            Hundreds of chats, zero organization, endless frustration. Your
-            brilliant ideas buried in digital chaos.
+            Hundreds of ChatGPT conversations, zero organization, endless
+            frustration. Your brilliant ideas buried in digital chaos.
             <br />
             <strong className="text-slate-900">
-              ChatGPT-Kit is the solution.
+              ChatGPT Folders is the solution to organize ChatGPT chats.
               <br />
             </strong>
           </p>
@@ -151,11 +152,11 @@ function Home() {
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="font-quicksand text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Everything You Need to Stay Organized
+            Organize ChatGPT Chats in Folders
           </h2>
           <p className="font-sans text-xl text-slate-600 max-w-2xl mx-auto">
-            Powerful features that make ChatGPT feel like it was always meant to
-            be organized
+            Powerful ChatGPT organizer features that make organizing ChatGPT
+            conversations simple and intuitive
           </p>
         </div>
 
@@ -184,10 +185,10 @@ function Home() {
                   Drag & Drop Magic
                 </CardTitle>
                 <CardDescription className="font-sans text-lg">
-                  Intuitively organize your chats with smooth drag-and-drop.
-                  Create folders, move conversations, and build your perfect
-                  structure in seconds. No learning curve, just natural
-                  interaction.
+                  Intuitively organize ChatGPT chats with smooth drag-and-drop.
+                  Create ChatGPT folders, move conversations, and build your
+                  perfect ChatGPT organization structure in seconds. No learning
+                  curve, just natural interaction.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -202,13 +203,13 @@ function Home() {
                     <div className="flex items-center space-x-3">
                       <Check className="h-5 w-5 text-emerald-600" />
                       <span className="font-sans text-slate-700">
-                        Create nested folder structures
+                        Create nested ChatGPT folders
                       </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Check className="h-5 w-5 text-emerald-600" />
                       <span className="font-sans text-slate-700">
-                        Batch move multiple conversations
+                        Batch move multiple ChatGPT chats
                       </span>
                     </div>
                   </div>
@@ -217,7 +218,7 @@ function Home() {
                       ⚡ Lightning Fast
                     </p>
                     <p className="font-sans text-sm text-emerald-600">
-                      Organize 100+ chats in under 2 minutes
+                      Organize 100+ ChatGPT chats in under 2 minutes
                     </p>
                   </div>
                 </div>
@@ -394,10 +395,11 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="font-quicksand text-3xl font-bold text-slate-900 mb-4">
-              Join Thousands of Happy Users
+              Join Thousands Using Our ChatGPT Organizer
             </h2>
             <p className="font-inter text-lg text-slate-600">
-              ChatGPT power users are already transforming their workflow
+              ChatGPT users are organizing their chats in folders and
+              transforming their workflow
             </p>
           </div>
 
@@ -416,8 +418,8 @@ function Home() {
                   </div>
                 </div>
                 <p className="font-sans text-slate-700 mb-4 group-hover:text-slate-800 transition-colors duration-300">
-                  "Finally! This is exactly what ChatGPT was missing. My
-                  conversations are actually organized now and I can find
+                  "Finally! This ChatGPT organizer is exactly what I needed. My
+                  ChatGPT chats are organized in folders now and I can find
                   everything instantly."
                 </p>
                 <p className="font-sans text-sm text-slate-500 font-semibold group-hover:text-slate-600 transition-colors duration-300">
@@ -440,8 +442,9 @@ function Home() {
                   </div>
                 </div>
                 <p className="font-sans text-slate-700 mb-4 group-hover:text-slate-800 transition-colors duration-300">
-                  "As someone with 500+ ChatGPT conversations, this extension is
-                  a lifesaver. The drag-and-drop is so intuitive."
+                  "As someone with 500+ ChatGPT chats, this ChatGPT Chrome
+                  extension is a lifesaver. Organizing ChatGPT conversations in
+                  folders is so intuitive."
                 </p>
                 <p className="font-sans text-sm text-slate-500 font-semibold group-hover:text-slate-600 transition-colors duration-300">
                   — Mike, Developer
@@ -463,8 +466,9 @@ function Home() {
                   </div>
                 </div>
                 <p className="font-sans text-slate-700 mb-4 group-hover:text-slate-800 transition-colors duration-300">
-                  "I was skeptical about another browser extension, but this
-                  feels like it's part of ChatGPT itself. Seamless!"
+                  "I was skeptical about another ChatGPT organizer, but this
+                  ChatGPT folders extension feels like it's part of ChatGPT
+                  itself. Seamless!"
                 </p>
                 <p className="font-sans text-sm text-slate-500 font-semibold group-hover:text-slate-600 transition-colors duration-300">
                   — Alex, Writer
@@ -479,11 +483,12 @@ function Home() {
       <section className="container mx-auto px-4 py-20 text-center animate-fade-in-up">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-quicksand text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Ready to Transform Your ChatGPT Experience?
+            Ready to Organize Your ChatGPT Chats?
           </h2>
           <p className="font-sans text-xl text-slate-600 mb-8">
-            Join thousands of users who've already organized their AI
-            conversations. Install in seconds, organize in minutes.
+            Join thousands of users who've already organized their ChatGPT
+            conversations in folders. Install our ChatGPT Chrome extension in
+            seconds, organize in minutes.
           </p>
 
           <div className="flex flex-col items-center gap-4">
@@ -497,7 +502,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Install ChatGPT Kit Free
+                Install ChatGPT Folders Free
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:scale-105 transition-all duration-300" />
               </a>
             </Button>
@@ -527,10 +532,10 @@ function Home() {
             <div className="flex items-center space-x-4 mb-4 md:mb-0 hover:scale-102 transition-all duration-300 cursor-pointer">
               <img
                 src={chatgptKitLogo}
-                alt="ChatGPT Kit"
+                alt="ChatGPT Folders - Organize ChatGPT chats"
                 className="w-8 h-8 hover:rotate-12 transition-all duration-300"
               />
-              <span className="font-semibold">ChatGPT Kit</span>
+              <span className="font-semibold">ChatGPT Folders</span>
             </div>
 
             <div className="font-sans flex items-center space-x-6 text-sm">
@@ -556,7 +561,7 @@ function Home() {
           </div>
 
           <div className="font-sans mt-8 pt-8 border-t border-slate-800 text-center text-slate-400 text-sm">
-            <p>© 2024 ChatGPT Kit. All rights reserved.</p>
+            <p>© 2024 ChatGPT Folders. All rights reserved.</p>
           </div>
         </div>
       </footer>
